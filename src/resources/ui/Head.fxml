@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gaussian.controllers.HeadController">
+   <children>
+      <VBox alignment="TOP_CENTER" cacheShape="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="350.0">
+         <FlowPane.margin>
+            <Insets right="20.0" />
+         </FlowPane.margin>
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="75.0" prefWidth="310.0" style="-fx-background-color: grey; -fx-font-size: 24;" onAction="#modeling" text="Modelling" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Ubuntu" size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="310.0" style="-fx-background-color: grey; -fx-font-size: 24;" onAction="#configureLayoutSystem" text="Configure Layout System">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="310.0" style="-fx-background-color: grey; -fx-font-size: 24;" onAction="#showHistory" text="Show history">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="310.0" style="-fx-background-color: grey; -fx-font-size: 24;" onAction="#clearLayoutSystem" text="Clear layout system">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+      <ImageView fitHeight="150.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+
+         </image>
+      </ImageView>
+      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="350.0">
+         <FlowPane.margin>
+            <Insets left="20.0" />
+         </FlowPane.margin>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <Label text="Current Layer System">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <ScrollPane prefHeight="310.0" prefWidth="310.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="511.0" prefWidth="295.0">
+                     <children>
+                        <Label prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="25.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="50.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="75.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="100.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="150.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="125.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="225.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="200.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="175.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="256.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="281.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="306.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                        <Label layoutY="331.0" prefHeight="25.0" prefWidth="295.0" text="Label" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+   </padding>
+</FlowPane>

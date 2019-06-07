@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gaussian.controllers.ConfiguratorController">
+    <children>
+        <VBox alignment="TOP_CENTER" cacheShape="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="350.0">
+            <FlowPane.margin>
+                <Insets right="20.0" />
+            </FlowPane.margin>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+         <children>
+            <HBox prefHeight="20.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="name1" prefHeight="20.0" prefWidth="70.0" promptText="Name" />
+                  <TextField fx:id="thilness1" prefHeight="20.0" prefWidth="85.0" promptText="Thikness, nm" />
+                  <TextField fx:id="rafractIndex1" prefHeight="20.0" prefWidth="85.0" promptText="Rafract index" />
+                  <Button mnemonicParsing="false" onMouseClicked="#save1" text="Save1" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextField fx:id="name2" prefHeight="20.0" prefWidth="70.0" promptText="Name" />
+                  <TextField fx:id="thilness2" prefHeight="20.0" prefWidth="85.0" promptText="Thikness, nm" />
+                  <TextField fx:id="rafractIndex2" prefHeight="20.0" prefWidth="85.0" promptText="Rafract index" />
+                  <Button mnemonicParsing="false" onMouseClicked="#save2" text="Save2" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextField fx:id="name3" prefHeight="20.0" prefWidth="100.0" promptText="Name" />
+                  <TextField fx:id="thilness3" prefHeight="20.0" prefWidth="100.0" promptText="Thikness, nm" />
+                  <TextField fx:id="rafractIndex3" prefHeight="20.0" prefWidth="100.0" promptText="Rafract index" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextField fx:id="name4" prefHeight="20.0" prefWidth="100.0" promptText="Name" />
+                  <TextField fx:id="thilness4" prefHeight="20.0" prefWidth="100.0" promptText="Thikness, nm" />
+                  <TextField fx:id="rafractIndex4" prefHeight="20.0" prefWidth="100.0" promptText="Rafract index" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextField fx:id="name5" prefHeight="20.0" prefWidth="100.0" promptText="Name" />
+                  <TextField fx:id="thilness5" prefHeight="20.0" prefWidth="100.0" promptText="Thikness, nm" />
+                  <TextField fx:id="rafractIndex5" prefHeight="20.0" prefWidth="100.0" promptText="Rafract index" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextField fx:id="name6" prefHeight="20.0" prefWidth="100.0" promptText="Name" />
+                  <TextField fx:id="thilness6" prefHeight="20.0" prefWidth="100.0" promptText="Thikness, nm" />
+                  <TextField fx:id="rafractIndex6" prefHeight="20.0" prefWidth="100.0" promptText="Rafract index" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="40.0" prefWidth="200.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <TextField fx:id="name7" prefHeight="20.0" prefWidth="100.0" promptText="Name" />
+                  <TextField fx:id="thilness7" prefHeight="20.0" prefWidth="100.0" promptText="Thikness, nm" />
+                  <TextField fx:id="rafractIndex7" prefHeight="20.0" prefWidth="100.0" promptText="Rafract index" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+         </children>
+        </VBox>
+        <ImageView fitHeight="150.0" fitWidth="60.0" onMouseClicked="#to" pickOnBounds="true" preserveRatio="true">
+            <image>
+
+            </image>
+        </ImageView>
+        <VBox fx:id="layersSystem" alignment="TOP_CENTER" prefHeight="400.0" prefWidth="350.0">
+            <FlowPane.margin>
+                <Insets left="20.0" />
+            </FlowPane.margin>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <Label text="Current Layer System">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0" />
+                    </VBox.margin>
+                </Label>
+            <FlowPane fx:id="activeLayers" prefHeight="70.0" prefWidth="200.0">
+               <children>
+                  <!--<CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" prefWidth="96.0" text="CheckBox" />-->
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </FlowPane>
+            <Separator prefWidth="200.0" />
+            <FlowPane fx:id="choosingActiveLayers" prefHeight="70.0" prefWidth="200.0">
+               <children>
+                  <!--<HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="96.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Label" />
+                        <TextField prefWidth="20.0" />
+                     </children>
+                  </HBox>-->
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </FlowPane>
+            <Separator prefWidth="200.0" />
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                   <Button mnemonicParsing="false" prefWidth="310" onMouseClicked="#test" text="Show Layer System" />
+                  <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+            </children>
+        </VBox>
+    </children>
+    <padding>
+        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+    </padding>
+</FlowPane>
